@@ -2,9 +2,9 @@
   "name": "dependency-injection",
   "version": "0.0.1",
   "description": "Dependency Injection",
-  "registry" : "jspm",
-  "main": "index.js",
-  "typings": "index",
+  "registry" : "npm",
+  "main": "lib/index.js",
+  "typings": "lib/index",
   "directories": {
     "lib": "lib",
     "test": "test",
