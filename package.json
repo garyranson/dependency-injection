@@ -2,9 +2,13 @@
   "name": "dependency-injection",
   "version": "0.0.1",
   "description": "Dependency Injection",
+  "registry" : "jspm",
   "main": "index.js",
+  "typings": "index",
   "directories": {
-    "test": "test"
+    "lib": "lib",
+    "test": "test",
+    "packages": "jspm_packages"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +16,13 @@
   "author": "Gary Ranson",
   "license": "ISC",
   "devDependencies": {
+    "jspm": "^0.16.53",
     "typescript": "^2.2.2"
+  },
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "devDependencies": {}
   }
 }

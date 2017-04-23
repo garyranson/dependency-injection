@@ -1,5 +1,5 @@
 /node_modules
-/jspm_modules
+/jspm_packages
 /test/**/*.js
 /test/**/*.d.ts
 /test/**/*.map
