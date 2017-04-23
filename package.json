@@ -6,7 +6,6 @@
   "main": "lib/index.js",
   "typings": "lib/index",
   "directories": {
-    "lib": "lib",
     "test": "test",
     "packages": "jspm_packages"
   },
@@ -20,7 +19,9 @@
     "typescript": "^2.2.2"
   },
   "jspm": {
+    "format" : "global",
     "directories": {
+      "lib" : "lib",
       "test": "test"
     },
     "devDependencies": {}
