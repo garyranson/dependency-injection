@@ -1,4 +1,4 @@
-import {DI, Injectable, InjectCallback} from "./dependency-injection";
+import {DI, Injectable, InjectCallback} from "./di";
 
 export interface Invoker {
   invoke(di: DI): object;

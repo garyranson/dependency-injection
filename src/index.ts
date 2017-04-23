@@ -1,3 +1,3 @@
-export {DI, InjectCallback, Injectable} from "./dependency-injection";
+export {DI, InjectCallback, Injectable} from "./di";
 
 
