@@ -1,0 +1,9 @@
+/node_modules
+/jspm_modules
+/test/**/*.js
+/test/**/*.d.ts
+/test/**/*.map
+/src/**/*.js
+/src/**/*.d.ts
+*.tgz
+.idea
