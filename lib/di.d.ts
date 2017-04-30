@@ -5,6 +5,7 @@ export interface Injectable {
 }
 export declare class DI {
     static instance(): DI;
+    static instance2(): DI;
     private _resolvers;
     private _invokers;
     get(ctor: Injectable): object;
