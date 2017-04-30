@@ -4,7 +4,7 @@ export interface Injectable {
     _inject?: Injectable[] | InjectCallback;
 }
 export declare class DI {
-    static instance: DI;
+    static instance(): DI;
     private _resolvers;
     private _invokers;
     get(ctor: Injectable): object;

@@ -8,8 +8,12 @@ export interface Injectable {
   _inject?: Injectable[] | InjectCallback;
 }
 
+let _instance: DI = null;
+
 export class DI {
-  static instance: DI = new DI();
+  static instance() {
+    return _instance || (_instance = new DI());
+  }
 
   private _resolvers = new Map<Injectable, Resolver>();
   private _invokers  = new Map<Injectable, Invoker>();

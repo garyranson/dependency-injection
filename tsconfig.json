@@ -11,8 +11,7 @@
     "declaration": true,
     "sourceMap" : true,
     "lib": [
-      "es2015",
-      "dom"
+      "es2016"
     ]
   },
   "include" : [
