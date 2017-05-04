@@ -21,6 +21,7 @@
   "jspm": {
     "registry": "jspm",
     "main": "index",
+    "format": "cjs",
     "directories": {
       "lib": "lib"
     },
