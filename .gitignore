@@ -5,6 +5,5 @@
 /test/**/*.map
 /src/**/*.js
 /src/**/*.d.ts
+/.idea
 *.tgz
-.idea
-/.idea/**/*
