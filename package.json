@@ -13,6 +13,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files" : [
+    "lib"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/garyranson/dependency-injection"
+  },
   "author": "Gary Ranson",
   "license": "ISC",
   "devDependencies": {
