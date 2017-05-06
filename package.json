@@ -6,6 +6,7 @@
   "main": "index.js",
   "typings": "index",
   "directories": {
+    "lib" : "lib",
     "test": "test",
     "packages": "jspm_packages"
   },

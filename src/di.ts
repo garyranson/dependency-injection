@@ -14,9 +14,6 @@ export class DI {
   static instance() {
     return _instance || (_instance = new DI());
   }
-  static instance2() {
-    return _instance || (_instance = new DI());
-  }
 
   private _resolvers = new Map<Injectable, Resolver>();
   private _invokers  = new Map<Injectable, Invoker>();
