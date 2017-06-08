@@ -3,8 +3,8 @@
   "version": "0.0.9",
   "description": "Dependency Injection",
   "registry": "npm",
-  "main": "index.js",
-  "typings": "index",
+  "main": "lib/index.js",
+  "typings": "lib/index",
   "directories": {
     "lib" : "lib",
     "test": "test",
