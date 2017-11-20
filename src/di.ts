@@ -11,6 +11,7 @@ export interface Injectable {
 let _instance: DI = null;
 
 export class DI {
+  // noinspection JSUnusedGlobalSymbols
   static instance() {
     return _instance || (_instance = new DI());
   }

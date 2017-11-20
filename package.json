@@ -4,26 +4,25 @@
   "description": "Dependency Injection",
   "registry": "npm",
   "main": "lib/index.js",
-  "typings": "lib/index",
+  "typings": "lib/index.d.ts",
   "directories": {
-    "lib" : "lib",
+    "lib": "lib",
     "test": "test",
     "packages": "jspm_packages"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files" : [
+  "files": [
     "lib"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/garyranson/dependency-injection"
+    "type": "git",
+    "url": "https://github.com/garyranson/dependency-injection"
   },
   "author": "Gary Ranson",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.53",
     "typescript": "^2.2.2"
   },
   "jspm": {
