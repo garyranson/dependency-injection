@@ -11,9 +11,14 @@ export interface Injectable {
 let _instance: DI = null;
 
 export class DI {
+  static _instance: DI = new DI();
   // noinspection JSUnusedGlobalSymbols
   static instance() {
-    return _instance || (_instance = new DI());
+    return _instance;
+  }
+
+  static resolve<T extends Injectable>(ctor: Injectable): T {
+    return <T> _instance.get(ctor);
   }
 
   private _resolvers = new Map<Injectable, Resolver>();

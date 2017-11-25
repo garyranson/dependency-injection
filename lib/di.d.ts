@@ -4,7 +4,9 @@ export interface Injectable {
     _inject?: Injectable[] | InjectCallback;
 }
 export declare class DI {
+    static _instance: DI;
     static instance(): DI;
+    static resolve<T extends Injectable>(ctor: Injectable): T;
     private _resolvers;
     private _invokers;
     get(ctor: Injectable): object;
